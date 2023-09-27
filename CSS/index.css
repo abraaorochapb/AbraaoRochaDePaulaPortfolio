@@ -1,5 +1,17 @@
 .header ul li{
     list-style: none;
-    text-decoration:none;
-    
+    color: gray;
+}
+.header ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.header ul li a:hover{
+    color: black;
+}
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    border-bottom: 2px solid gray;
 }
