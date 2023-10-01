@@ -1,0 +1,32 @@
+.educationp1 {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.educationp2 {
+    font-size: 20px;
+    text-align: start;
+}
+
+.educationdiv {
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.educationh1 {
+    margin-top: -10px;
+}
+
+.educationh2 {
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.abilities {
+    text-align: start;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
