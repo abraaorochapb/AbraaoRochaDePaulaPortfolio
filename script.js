@@ -26,10 +26,9 @@ education.addEventListener('click', () => {
     main.innerHTML = `<h1 class="educationh1">Educação</h1>
     <div class="educationdiv">
     <p class="educationp1">Atualmente estou cursando Análise e Desenvolvimentos de Sistemas na UNINTER, e também 
-    atuando como estagiário DevOps na IDS Software e Assessoria, meus maiores interesses são desenvolvimento backend
+    atuo como estagiário DevOps na IDS Software e Assessoria, meus maiores interesses são desenvolvimento backend
     e nas práticas DevOps: CI/CD, automatização, manutenção de servidores.</p>
     <h2 class="educationh2">Habilidades</h2>
-    
     <div class="abilities">
     <ul>
     <li>NodeJS</li>
@@ -50,5 +49,13 @@ education.addEventListener('click', () => {
     <li>WinSCP</li>
     </ul>
     </div>
+    </div>`
+})
+
+// aqui estou adicionando um evento de click ao elemento "portfolio", para mudar o conteúdo da página
+portfolio.addEventListener('click', () => {
+    main.innerHTML = `<h1 class="portfolioh1">Portfólio</h1>
+    <div class="portfoliodiv">
+    <p class="portfoliop1"></p>
     </div>`
 })

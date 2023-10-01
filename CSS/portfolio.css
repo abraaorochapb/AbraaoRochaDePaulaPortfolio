@@ -1,0 +1,33 @@
+/* Formatação de texto da seção de portfolio*/
+.portfoliop1 {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.portfoliodiv {
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.portfolioh1 {
+    margin-top: -10px;
+}
+
+.portfolioh2 {
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+/* Aqui estamos formatando como os projetos irão aparecer na lista*/
+.projects {
+    text-align: start;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects ul li a{
+    text-decoration: none;
+}

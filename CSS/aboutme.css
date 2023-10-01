@@ -1,3 +1,5 @@
+/* nesta seção de css não aplicaremos estilos a fundo, estaremos
+basicamente formatando como o texto irá aparecer */
 .aboutp1 {
     font-size: 20px;
     text-align: start;
@@ -17,4 +19,8 @@
 
 .abouth1 {
     margin-top: -10px;
+}
+
+.educationh2 {
+    margin-top: 20px;
 }
