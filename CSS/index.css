@@ -1,17 +1,33 @@
+/* estilizando a header */
 .header ul li{
     list-style: none;
-    color: gray;
-}
-.header ul li a{
     text-decoration: none;
-    color: gray;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
 }
-.header ul li a:hover{
+.header ul li:hover{
     color: black;
 }
 .header ul {
     display: flex;
     justify-content: space-around;
-    margin: 2rem 0;
-    border-bottom: 2px solid gray;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid black;
+}
+.header{
+    background-color: #E5B769;
+}
+
+/* estilizando o conteudo principal da pagina */
+.main{
+    text-align: center;
+    margin-top: 5rem;
+}
+.main h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.main p{
+    font-size: 1.5rem;
 }

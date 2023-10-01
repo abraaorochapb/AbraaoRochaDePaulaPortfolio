@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    
+    <!-- Aqui estou linkando os arquivos CSS da página, e também estou importando a fonte -->
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/aboutme.css">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="CSS/education.css">
+    <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- linkando o javascript com o atributo defer para que seja carregado após a página de forma assíncrona-->
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Tentarei utilizar o máximo possível de html semântico -->
+
+    <!-- Essa é header(cabecalho), nela ficarão os links, ela irá aparecer em todas as paginas -->
     <header class="header">
+        <!-- Utilização da lista para criar uma navbar -->
         <ul class="menu">
-            <li><a href="education.html">Educação</a></li>
-            <li><a href="aboutme.html">Sobre mim</a></li>
-            <li><a href="contact.html">Contato</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="about">Sobre mim</li>
+            <li class="education">Educação</li>
+            <li class="contact">Contato</li>
+            <li class="portfolio">Portfolio</li>
         </ul>
     </header>
+
+    <!-- Conteúdo principal -->
+    <main class="main">
+        <h1>Bem vindo ao meu portfólio</h1>
+        <p>Utilize os links do menu para navegar entre as páginas :)</p>
+    </main>
 </body>
 </html>
